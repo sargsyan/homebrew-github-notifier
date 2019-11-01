@@ -23,9 +23,6 @@ class GithubNotifier < Formula
     ln_s lib/"configure.sh", bin/"github-notifier-configure"
   end
 
-  def post_install
-    system "github-notifier-install"
-  end
 
   test do
     # `test do` will create, run in and delete a temporary directory.
