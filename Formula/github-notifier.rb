@@ -21,6 +21,7 @@ class GithubNotifier < Formula
     ln_s lib/"install.sh", bin/"github-notifier-install"
     ln_s lib/"uninstall.sh", bin/"github-notifier-uninstall"
     ln_s lib/"configure.sh", bin/"github-notifier-configure"
+    system "github-notifier-configure"
   end
 
 
