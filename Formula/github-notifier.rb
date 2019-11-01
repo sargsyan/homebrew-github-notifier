@@ -1,7 +1,7 @@
 class GithubNotifier < Formula
   desc "Get Github and Github Enterprise notifications in your Mac OS "
   homepage "https://sargsyan.github.io/github-notifier/"
-  url "https://github.com/sargsyan/github-notifier/archive/v1.0.0.tar.gz"
+  url "https://github.com/sargsyan/github-notifier/archive/v1.0.1.tar.gz"
   sha256 "e16037ad260ae1ed4c35d1428ced6982e5249aeb416f9a8d0be64fd1086b16d5"
 
   depends_on "jq"
